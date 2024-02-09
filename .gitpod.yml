@@ -1,0 +1,4 @@
+tasks: 
+  - init: gem install bundler && bundle install     
+
+

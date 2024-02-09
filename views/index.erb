@@ -1,0 +1,63 @@
+<!-- views/index.erb -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="https://istic.computer-engineering.tech/images/Iconcover.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #2684fb;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0; /* Remove default margin */
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: white; /* Yellow color */
+      letter-spacing: 2px;
+      padding: 10px; /* Add padding for better visual appeal */
+      border-radius: 8px; /* Rounded corners */
+    }
+
+    .download-link {
+      padding: 15px 30px;
+      background-color: #4CAF50; /* Green color */
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: box-shadow 0.3s, transform 0.3s;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* White shadow */
+    }
+
+    .download-link:hover {
+      box-shadow: 0 8px 12px rgba(255, 255, 255, 0.4); /* Larger shadow on hover */
+      transform: translate(0, -5px); /* Move the button up on hover */
+    }
+
+    /* Animation */
+    .download-link:active {
+      transform: scale(0.95);
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Revert to original shadow on click */
+    }
+  </style>
+  <title>Next-Gen LaTeX Prompt</title>
+</head>
+<body>
+  <h3>Take Your Advantage</h3>
+  <a class="download-link" href="/download"><h2>Download <b>LaTeX</b> Prompt</h2></a>
+</body>
+</html>
