@@ -1,4 +1,4 @@
 tasks: 
-  - init: gem install bundler && bundle install     
+  - init: gem install bundler && bundle install && npm install -g heroku    
 
 
