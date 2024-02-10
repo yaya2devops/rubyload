@@ -1,4 +1,10 @@
-tasks: 
-  - init: gem install bundler && bundle install && npm install -g heroku    
+tasks:
+  - name: Install Dependencies
+    init: gem install bundler && bundle install && npm install -g heroku
+  # https://hub.docker.com/repository/docker/yaya2devops/rubyload
+  - name: Build Docker Image
+    command: docker build -t rubyload .
+    command: docker run -p 4567:4567 rubyload
+    terminal: docker
 
 
